@@ -1,0 +1,11 @@
+INSERT INTO dbo.Employee_Types(EmpDescription)
+VALUES
+('SuperAdministrador'),
+('Administrativo'),
+('Operario')
+;
+
+INSERT INTO dbo.Employees (FirstName, LastName, NumberDocument, Id_EmpType, Employee_TypeId_EmployeeType)
+VALUES
+('Jhon Alejandro', 'Sandoval Miranda', 1095838938, 1, 1),
+('Jorge Alejandro', 'Lozano', 1095838938, 1, 1);
