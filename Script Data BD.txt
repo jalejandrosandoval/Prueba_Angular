@@ -1,11 +1,7 @@
-INSERT INTO dbo.Employee_Types(EmpDescription)
-VALUES
-('SuperAdministrador'),
-('Administrativo'),
-('Operario')
+INSERT INTO dbo.Products (Descripcion, Valor)
+VALUES 
+('Producto # 1', 23000),
+('Producto # 2', 39800),
+('Producto # 3', 27600),
+('Producto # 4', 24300)
 ;
-
-INSERT INTO dbo.Employees (FirstName, LastName, NumberDocument, Id_EmpType, Employee_TypeId_EmployeeType)
-VALUES
-('Jhon Alejandro', 'Sandoval Miranda', 1095838938, 1, 1),
-('Jorge Alejandro', 'Lozano', 1095838938, 1, 1);
